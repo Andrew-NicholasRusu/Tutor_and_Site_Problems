@@ -1,2 +1,3 @@
 # Java-1-Semester-Summary
-This is made as a sort of review of all of the components found in Java 1. Use these as examples for future projects that require them.
+Here are all of my Coding programs I have done via tutors online and websites for practice!
+  
