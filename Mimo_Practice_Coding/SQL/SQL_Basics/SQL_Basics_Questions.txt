@@ -1,0 +1,17 @@
+1. Why would we want to order them in a table?
+	Answer: To easier understand and manages the stored data.ALTER
+
+2. How are the items arranged when we order by a column with text values?
+	Answer: Alphbetically, according to their values in that column
+
+3. Which item comes first when ordering by a column with numerical values?
+	Answer: The item with the smallest value in that column.
+
+4. How do we order items in descending order?
+	Answer: By coding the DESC keyword after the column name
+
+5. Why would we need to filter the table items we select?
+	Answer: To get only items that satisfy certain conditions
+
+6. 
+
