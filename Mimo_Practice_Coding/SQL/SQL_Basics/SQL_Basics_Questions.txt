@@ -13,5 +13,97 @@
 5. Why would we need to filter the table items we select?
 	Answer: To get only items that satisfy certain conditions
 
-6. 
+6. What does the = operator do?
+	Answer: It checks if two values are equal.
+
+7. How do we write text values in a query?
+	Answer: Between simple quotes ' '
+
+8. How do we write number values in queries?
+	Answer: As they are, without any quotes.
+
+9. Do we always need to select all columns when filtering?
+	Answer: No, we can also just select a couple
+
+10. Do we need to select the column we're putting a condition on when filtering?
+	Answer: No, we don't have to.
+
+11. Which values come first when we order by a text property?
+	Answer: The values with letters at the beginning of the alphabet come first.
+
+12. How does this query order the items?
+
+SELECT *
+FROM students
+ORDER BY score DESC;
+
+	Answer: In descending order
+
+13. What kind of items in this query filtering for? 
+
+SELECT *
+FROM books
+WHERE title = 'The Prince';
+
+	Answer: Book items with the title property equal to 'The Prince'
+
+14. How many columns will the result table have?
+
+SELECT *
+FROM books
+WHERE genre = 'fiction';
+
+	Answer: One: title
+
+15. When is the inequality sign useful?
+	Answer: When we want to get all items that don't satisfy a criterion.
+
+16. Which operator do we use to check if two values are not equal? 
+	Answer: <>
+
+17. What kind of values can we use the inequality operator <> with?
+	Answer: Any kind, like text and numbers.
+
+18. What does this query do?
+
+SELECT city
+FROM pollutiin
+WHERE pollution_index < 80;
+
+	Answer: It selects the city property of all items with a pollution_index less than 80.
+
+19. Which operator do we use when we want to check if a property is less than a certain value?
+	Answer: The < operator
+
+20. When do we use the <= operator?
+	Answer: When we want to select items with a property less than or equal to a value.
+
+21. Which operator do we use to check if the value on the left is greater than that on the right?
+	Answer: > 
+
+22. When should we use the greater than operator?
+	Answer: When we want to filter for items with a property over a certain threshold.
+
+ 
+23. Which query selects items where the destination property isn't 'Rome' ?
+
+SELECT *
+FROM flights
+WHERE destination = 'Rome';
+
+SELECT *
+FROM flights
+WHERE destination <> 'Rome';
+
+	Answer: The second one, because it uses the inequality operator <>
+
+24. What's wrong with this query?
+
+SELECT daily
+FROM flights
+WHERE destination <> 'Paris';
+
+	Answer: There's nothing wrong with the query.
+
+
 
