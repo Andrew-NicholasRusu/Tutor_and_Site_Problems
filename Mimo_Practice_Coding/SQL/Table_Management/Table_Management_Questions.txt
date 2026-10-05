@@ -1,0 +1,93 @@
+1. Which of the following SQL questions can add additional rows to an existing table?
+	a) SELECT
+	b) INSERT INTO
+
+2. What does VALUES do?
+	a) It specifies the values to be inserted int a newly created row
+	b) It displays the existing values of a table
+
+3. How can you delete all the values from a table?
+	a) One cannot delete the values of a table
+	b) Using DELETE FROM without the condition
+
+4. Which is the most elegant solution for changing an existing table entry?
+	a) Using a DELETE statement followed by an INSERT statement
+	b) Using an UPDATE statement
+
+5. Can UPDATE be used to insert new entries into a table?
+	a) No, UPDATE can only be used to modify existing entries
+	b) Yes, SQLite will automatically create a new entry
+
+6. Which keywords does the basic syntax for an UPDATE statement start with?
+	a) UPDATE followed by the name of table to change 
+	b) UPDATE followed by the name of the column to change
+
+7. What must you include if you only want to change a specific row of data?
+	a) A WHERE clause
+	b) The column name and new value
+
+8. Which keywords does the syntax for creating a SQL table ways start with?
+	a) TABLE followed by the table name followed by CREATE
+	b) CREATE followed by TABLE followed by the table name
+
+9. What column characteristics must your table creation syntax include at a minimum?
+	a) Each column's name and its data type
+	b) Each column's name
+
+10. What are some common column data types?
+	a) INTEGER, REAL and TEXT
+	b) BOOLEAN, TRUE, and TEXT
+
+11. How can we ensure that we run a table creation statement only if needed?
+	a) By adding IF NOT EXISTS to the SQL query.
+	b) We can't ensure that
+
+12. What's wrong with the given code?
+
+INSERT INTO toys (name, price, store)
+VALUES ("Beyblade", 13);
+SELECT * FROM toys;
+
+	a) The VALUES line should come first
+	b) There's no column named store
+	c) INSERT, not INSERT INTO
+
+13. What happens if you call UPDATE with a WHERE clause that does not match an existing row?
+
+	a) SQLite will automatically create a new row with the provided data
+	b) SQLLite will update the next closest row
+	c) Nothing will change
+
+14. Which of the following is not a requirement for defining a SQL table's columns?
+	a) Column data type
+	b) Column name
+	c) Column constraints
+
+15. Which of the following is not a valid SQL column data type?
+	a) REAL
+	b) BOOLEAN
+	c) TEXT
+
+16. Which of the following statement is true for a schema?
+	a) A schema contains information about a database
+	b) A schema contains only table information
+
+
+17. Where is the list of tables stored in your database?
+
+	a) query
+	b) schema
+
+18. How can you delete a table from an SQLite database?
+	a) DROP TABLE 
+	b) DELETE TABLE
+
+19. Which of the follow is the correct syntax for dropping a table?
+	a) DROP TABLE tablename
+	b) DROP tablename
+	
+
+
+
+
+
